@@ -1,7 +1,7 @@
 import streamlit as st
 import altair as alt
 import pandas as pd
-from urllib.error import URLError¶
+from urllib.error import URLError
 
 @st.cache_data
 def get_UN_data():
